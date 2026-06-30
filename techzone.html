@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TechZone Gadget Store</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#000814,#001d3d,#003566);
+    color:white;
+}
+
+/* Navbar */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+    background:#000;
+}
+
+.logo img{
+    height:70px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+.nav-links a:hover{
+    color:#00aaff;
+}
+
+/* Hero Section */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px;
+}
+
+.hero-text{
+    width:45%;
+}
+
+.hero-text h1{
+    font-size:70px;
+    margin:0;
+}
+
+.hero-text span{
+    color:#1e90ff;
+}
+
+.hero-text p{
+    font-size:22px;
+    line-height:1.6;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 35px;
+    background:#1e90ff;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+}
+
+.hero-image img{
+    width:700px;
+}
+
+/* Features */
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    padding:30px;
+    text-align:center;
+}
+
+.feature{
+    background:rgba(255,255,255,0.08);
+    padding:20px;
+    border-radius:15px;
+    width:220px;
+}
+
+/* Categories */
+
+.title{
+    text-align:center;
+    margin-top:40px;
+}
+
+.categories{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:40px;
+}
+
+.card{
+    background:rgba(255,255,255,0.08);
+    width:230px;
+    border-radius:20px;
+    overflow:hidden;
+    text-align:center;
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:15px;
+}
+
+.card a{
+    display:inline-block;
+    margin-bottom:20px;
+    color:#00aaff;
+    text-decoration:none;
+}
+
+/* Footer */
+
+footer{
+    background:black;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<div class="navbar">
+
+    <div class="logo">
+        <img src="logo.png" alt="TechZone Logo">
+    </div>
+
+    <div class="nav-links">
+        <a href="#">HOME</a>
+        <a href="smartphones.html">SMARTPHONES</a>
+        <a href="laptops.html">LAPTOPS</a>
+        <a href="headphones.html">HEADPHONES</a>
+        <a href="watch.html">WATCH</a>
+        <a href="gaming.html">GAMING</a>
+    </div>
+
+</div>
+
+<!-- HERO -->
+
+<div class="hero">
+
+    <div class="hero-text">
+
+        <h1>TECH<span>ZONE</span></h1>
+
+        <h2>Gadget Store</h2>
+
+        <p>
+            Discover the latest technology from top brands.
+            Smartphones, laptops, audio devices,
+            smartwatches and gaming accessories.
+        </p>
+
+        <a href="#" class="btn">SHOP NOW</a>
+
+    </div>
+
+    <div class="hero-image">
+        <img src="i11.jpg" alt="TechZone Banner">
+    </div>
+
+</div>
+
+<!-- FEATURES -->
+
+<div class="features">
+
+    <div class="feature">
+        <h3>✔ Genuine Products</h3>
+        <p>100% Original</p>
+    </div>
+
+    <div class="feature">
+        <h3>🚚 Fast Delivery</h3>
+        <p>At Your Doorstep</p>
+    </div>
+
+    <div class="feature">
+        <h3>🏆 Best Prices</h3>
+        <p>Guaranteed</p>
+    </div>
+
+    <div class="feature">
+        <h3>🎧 24/7 Support</h3>
+        <p>We're Here To Help</p>
+    </div>
+
+</div>
+
+<!-- CATEGORIES -->
+
+<h2 class="title">Explore Our Categories</h2>
+
+<div class="categories">
+
+    <div class="card">
+        <img src="i2.jpg">
+        <h3>📱 Smartphones</h3>
+        <a href="smartphones.html">View Products</a>
+    </div>
+
+    <div class="card">
+        <img src="i3.jpg">
+        <h3>💻 Laptops</h3>
+        <a href="laptops.html">View Products</a>
+    </div>
+
+    <div class="card">
+        <img src="i4.jpg">
+        <h3>🎧 Headphones</h3>
+        <a href="headphones.html">View Products</a>
+    </div>
+
+    <div class="card">
+        <img src="i5.jpg">
+        <h3>⌚ Smart Watch</h3>
+        <a href="watch.html">View Products</a>
+    </div>
+
+    <div class="card">
+        <img src="i6.jpg">
+        <h3>🎮 Gaming</h3>
+        <a href="gaming.html">View Products</a>
+    </div>
+
+</div>
+
+<footer>
+    <h3>🔥 Mega Sale - Up To 30% OFF</h3>
+    <p>© 2026 TechZone Gadget Store</p>
+</footer>
+
+</body>
+</html>
